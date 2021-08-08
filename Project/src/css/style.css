@@ -286,7 +286,6 @@ nav{
 }
 
 .stat_table{
-    float: left;
     display: inline-block;
     width: 280px;
     margin: 88px 40px 0px 40px;
