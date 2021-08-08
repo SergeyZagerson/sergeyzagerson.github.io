@@ -1,0 +1,280 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+
+}
+
+.logo{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 0px 0px 386px;
+}
+
+.menu{
+    float: left;
+    padding: 0px 0px 0px 430px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    padding: 0 41px 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main{  
+    background: url(../img/main_boy.png) 90% 100%/auto 85% no-repeat , url(../img/main_bg.jpg) center/cover no-repeat;
+    width: 100%;
+    height: calc(100% - 60px);
+    box-shadow: 0px -31px 34px -36px #3c3f3a inset
+}
+
+.hello__conteiner{ 
+    float: left;
+    margin: 432px 0px 0px 403px;
+    text-align: center;
+
+}
+
+.hello__conteiner h1{ 
+    font-size: 58px;
+    text-align: center;
+    color: #2c384a;
+    font-weight: bold;
+
+}
+
+.hello__conteiner h4{  
+    font-size: 58px;    
+    text-align: center;
+    color: #2c384a;
+    font-weight: bold;
+}
+
+.hello__conteiner p{ 
+    text-align: center;
+    font-size: 15px;
+    margin: 36px 0px 0px 0px;
+    font-weight: bold;
+    color: #79818d;
+}
+
+.hello__conteiner input{ 
+    height: 40px;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    background: none;
+    padding: 0px 12px; 
+    text-align: center;
+    margin: 50px 14px 0px 14px;
+    color: #6d7682;
+}
+
+.about__me{
+    text-align: center;
+    height: 620px;
+    width: 100%;
+}
+
+.about__me h2{
+    font-size: 35px;
+    margin: 110px 0px 32px 0px;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.about__me input{  
+    margin: 36px 0px 0px 0px;
+    border: 2px #6d7682 solid;
+    border-radius: 5px;
+    padding: 4px 8px 4px 33px;
+    background: url(../img/input_about_me_icon.jpg) 5px 50%/auto 60% no-repeat;
+    font-size: 13px;
+    color: #6f707e;
+}
+
+.about__me p{
+    color: #3f495a;
+}
+
+#title_bar_about{
+    margin: 0px 0px 60px 0px;
+}
+
+#boy_about_me{
+    margin: 0px 0px 25px 0px;
+}
+
+.i__can{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 525px;
+    background: url(../img/i_can_bg.jpg) 100% 100%/auto 100% no-repeat;
+}
+
+.i__can h2{
+    color: #263244;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 108px 0px 30px 0px;
+}
+
+#title_bar_i_can{
+    margin: 0px 0px 100px 0px;
+}
+
+.i__can h3{
+    color: #cf7600;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: pre;
+    margin: 0px 0px 16px 0px;   
+}
+
+.text_i_can{ 
+    display: inline-block;
+    width: 280px;
+    margin: 0px 50px;
+    height: 200px;
+    color: #3f495a;
+}
+
+._img_i_can{ 
+    width: 50px;
+    height: 42px;
+    margin: 0px 0px 36px 0px;
+}
+
+.cases{
+    width: 100%;
+    height: 1160px;
+    float: left;
+}
+
+.cases h2{
+    font-size: 35px;
+    margin: 110px 0px 28px 0px;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading_cases{
+    text-align: center;
+    color: #3f495a;
+    margin: 104px 0px 41px 0px;
+    width: 100%;
+    height: 120px;
+
+}
+
+.cases>img{
+    width: 1160px;
+    height: 582px;
+    margin: 0px 0px 0px 390px;
+}
+
+#title_bar_cases{
+    margin: 0px 0px 38px 0px;
+}
+
+.footer__cases{
+    margin: 0px 0px 0px 390px;
+}
+
+.footer__cases input{
+    background-color: #63b5ae;
+    border: #63b5ae solid;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+    width: 200px;
+    height: 46px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 23px 0px 0px 0px;
+}
+
+.footer__cases h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #384354;
+    margin: 15px 0px 15px 0px;
+}
+
+.calculator{
+    width: 100%;
+    height: 880px;
+    float: left;
+}
+
+.calculator img{
+    margin: 37px 0px 5px 494px;
+}
+
+.calculator h3{
+    color: #1c2534;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 35px 0px;
+    text-indent: 498px;
+}
+
+.calculator h2{
+    text-align: center;
+    color: #1c2534;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 100px 0px 55px 0px;
+
+}
+
+.calculator select{
+    margin: 0px 0px 0px 495px;
+    background: url('../img/arrow.png') 842px 50%/auto 20% no-repeat;
+    background-color: #eeeeee;
+    width: 892px;
+    height: 56px;
+    text-indent: 12px;
+    color: #909090;
+    
+}
+
+.calc_text{  
+    box-sizing: border-box;  
+    font-weight: bold;
+    color: #1c2534;
+    margin: 0px 0px 0px 498px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.num_calc{
+    position: absolute;
+    top: 3985px;
+    color: #1c2534;
+    font-weight: bold;
+    margin: 0px 0px 0px 1367px;
+    height: 144px;
+    font-size: 22px;
+}
+
+.statistics{
+    width: 100%;
+    height: 500;
+    float: left;
+}

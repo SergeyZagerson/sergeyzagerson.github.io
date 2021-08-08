@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">Андрей Браун</div>
-            <ul>
-            <li>Обо мне</li>
-            <li>Услуги</li>
-            <li>Кейсы</li>
-            <li>Прайс</li>
-            <li>Отзывы</li>
-            <li>Контакты</li>
+            <div class="menu">
+                <ul>
+                    <li>Обо мне</li>
+                    <li>Услуги</li>
+                    <li>Кейсы</li>
+                    <li>Прайс</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
             
-            </ul>
+                </ul>
+
+            </div>
             
         </nav>
-        
+
     </header>
     
     <div class="main">
-    <div class="hello__conteiner"><h1>Привет,<br>Я Андрей Браун</h1>
+    <div class="hello__conteiner">
+    <h1>Привет,</h1>
+    <h4>Я Андрей Браун</h4>
+    <p>Фулл стек веб-разрабочик и Android-разработчик</p>
     <input type="submit" value="Обо мне">
     <input type="submit" value="Мои работы">
     
@@ -33,35 +42,47 @@
     
     <div class="about__me">
         <h2>Обо мне</h2>
+
+        <img id="title_bar_about" src="../src/img/title_bar.jpg" alt="Not loaded"><br>
+
+        <img id="boy_about_me" src="../src/img/boy_about__me.jpg" alt="Not loaded"> 
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem consequatur, hic atque quae ipsam, pariatur exercitationem quasi sint iste!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere rem consequatur, hic atque quae ipsam,<br> pariatur exercitationem quasi sint iste!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, alias.</p><br><br>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur animi eos quidem eaque fuga, repellendus, facere provident repudiandae repellat ipsa.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur animi eos quidem eaque fuga, repellendus, facere provident repudiandae repellat ipsa. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, alias.</p>
         
         <input type="submit" value="Скачать резюме">
+
         
     </div>
     
     <div class="i__can">
+        <h2>ЧТО Я УМЕЮ</h2>
+        <img id="title_bar_i_can" src="../src/img/title_bar.jpg" alt="Not loaded">
+
         <ul>
-            <li>
+            <li class="text_i_can">
+                <img class="_img_i_can" src="../src/img/notebook.png" alt="Not loaded">
                 <h3>Веб-дизаин</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit totam, atque porro, nam ab.</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit totam, atque porro, nam ab.</span>
                 
             </li>
-             <li>
+             <li class="text_i_can">
+                <img class="_img_i_can" src="../src/img/sign.png" alt="Not loaded">
                 <h3>Разработка</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum totam, quo accusantium corporis est!</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum totam, quo accusantium corporis est! </span>
                 
             </li>
-             <li>
+             <li class="text_i_can">
+                <img class="_img_i_can" src="../src/img/rocket.png" alt="Not loaded">
                 <h3>СЕО-оптимизация</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores neque totam quo excepturi amet et voluptatibus.</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores neque totam quo excepturi amet et voluptatibus.</span>
                 
             </li>
-             <li>
+             <li class="text_i_can">
+                <img class="_img_i_can" src="../src/img/gramophone.png" alt="Not loaded">
                 <h3>Маркетинг</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos incidunt fugit, dolore natus dolores esse.</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos incidunt fugit, dolore natus dolores esse.</span>
                 
             </li>
             
@@ -70,11 +91,22 @@
     </div>
     
     <div class="cases">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptates?</p>
+
+            <div class="heading_cases">
+
+                <h2>КЕЙСЫ</h2>
+
+                <img id="title_bar_cases" src="../src/img/title_bar.jpg" alt="Not loaded">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptates?</p>
+                
+            </div>
+
+            <img src="../src/img/default_cases.jpg" alt="Not loaded">
         
         <div class="footer__cases">
             <h3>CLIENT:</h3>
-            <p>Какая-то компания</p
+            <p>Какая-то компания</p>
             
             <h3>WEBSITE:</h3>
             <p>https://somedomain.com</p>
@@ -86,28 +118,42 @@
     </div>
     
     <div class="calculator">
+        <h2>Расчет стоимости</h2>
+
         <h3>ТИП САЙТА</h3>
         <select name="select1" id="type_web" class="calulator__select">
-            <option value="opt1">option1</option>
+            <option value="opt1" selected >Выберете пункт..</option>
             
         </select>
         
         <h3>ДИЗАЙН</h3>
         <select name="select2" id="disign" class="calulator__select">
-            <option value="opt1">option1</option>
+            <option value="opt1" selected >Выберете пункт..</option>
             
         </select>
         
         <h3>АДАПТИВНОСТЬ</h3>
         <select name="select3" id="adaptive" class="calulator__select">
-            <option value="opt1">option1</option>
+            <option value="opt1" selected >Выберете пункт..</option>
             
-        </select><br>
+        </select>
+
+        <img src="../src/img/bar.jpg" alt="Not loaded">
         
-        <span>Сроки</span>
-        <span>0</span><br>
-        <span>Стоимость</span>
-        <span>0</span>
+        <div class="calc" style="display:inline-block;">
+
+            <span class="calc_text">Сроки</span><br>
+            <span class="calc_text">Стоимость</span>
+            
+            <div class="num_calc">
+
+                <p class="calc_num">0</p><br>   
+
+                <p class="calc_num">0</p>
+
+            </div>
+
+        </div>
         
         
     </div>
