@@ -274,7 +274,176 @@ nav{
 }
 
 .statistics{
+    background: url(../img/statistics_bg.jpg);
+    text-align: center;
     width: 100%;
-    height: 500;
+    height: 500px;
     float: left;
+}
+
+.statistics ul{
+    margin: 0px 0px 0px 210px;
+}
+
+.stat_table{
+    float: left;
+    display: inline-block;
+    width: 280px;
+    margin: 88px 40px 0px 40px;
+    height: 200px;
+}
+
+.statistics p{
+    font-weight: bold;
+    font-size: 38px;
+    color: #323e4f;
+}
+
+.statistics h2{
+    text-align: center;
+    color: #323e4f;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 104px 0px 0px 0px;
+
+}
+
+.statistics h3{
+    color: #323e4f;
+    font-size: 16px;
+    white-space: pre;
+    margin: 30px 0px 16px 0px;
+    font-weight: 600;   
+}
+
+.img_stat{ 
+    width: 47px;
+    height: 42px;
+    margin: 0px 0px 36px 0px;
+}
+
+#title_bar_stat{
+    margin: 32px 0px 0px 0px;
+}
+
+.reviews{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+#title_bar_reviews{
+    margin: 34px 0px 59px 0px;
+}
+
+.avatar{
+    box-sizing: border-box;
+    margin: 0px 0px 37px 0px;
+}
+
+.reviews h2{
+    text-align: center;
+    color: #323e4f;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 104px 0px 0px 0px;
+
+}
+
+.review{
+    color: #243042;
+}
+
+.who{
+    color: #243042;
+    margin: 34px 0px 0px 0px;
+}
+
+.reviews span{
+    color: #243042;
+    font-weight: bold;
+}
+
+.dots{
+    margin: 48px 7px 0px 7px;
+}
+
+.feedback{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 805px;
+    background: url(../img/bg_feedback.jpg);
+}
+
+#title_bar_feedback{
+    margin: 0px 0px 35px 0px;
+}
+
+.feedback p{
+    color: #fff;
+}
+
+.feedback h2{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 104px 0px 32px 0px;
+}
+.feedback h3{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 60px 0px 0px 0px;
+}
+.some_text{
+    margin: 32px 0px 46px 0px;
+}
+
+.text_contacts{
+    display: inline-block;
+    width: 250px;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+}
+
+.img_feedback{
+    margin: 0px 0px 16px 0px;
+}
+
+.contacts_user{
+    width: 350px;
+    height: 35px;
+    margin: 47px 30px 14px 0px;
+    text-indent: 13px;
+    background-color: #d2d6dc;
+    opacity: 80%;
+    
+}
+
+.message{
+    width: 732px;
+    height: 94px;
+    margin: 0px 30px 0px 0px;
+    text-indent: 13px;
+    line-height: 30px;
+    background-color: #d2d6dc;
+    opacity: 80%;
+
+}
+
+._submit{
+    width: 125px;
+    height: 46px;
+    border: #fff solid;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 28px;
+
 }
