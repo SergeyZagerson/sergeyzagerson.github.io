@@ -1,0 +1,10 @@
+
+@font-face {
+font-family: "franklin-got"; 
+src: url("../fonts/FRABK.ttf"); 
+src: url("../fonts/FRABK.eot") format("embedded-opentype"),
+url("../fonts/FRABK.woff") format("woff"), 
+url("../fonts/FRABK.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
