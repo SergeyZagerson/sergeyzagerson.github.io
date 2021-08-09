@@ -166,6 +166,9 @@ main{
     font-weight: bold;
 }
 
+
+/* TITLE ACTIVE ACTIONS */
+
 .title_container input:hover{
     border-color: white;
     background-color: #3c4d65;
@@ -215,7 +218,7 @@ main{
     border: 2px #6d7682 solid;
     border-radius: 5px;
     padding: 4px 8px 4px 30px;
-    background: url(../img/input_about_me_icon.jpg) 7px 50%/auto 60% no-repeat;
+    background: url(../img/download_arrow.png) 7px 50%/auto 60% no-repeat;
     font-size: 13px;
     color: #6f707e;
 }
@@ -230,6 +233,19 @@ main{
     margin: 0px 0px 25px 0px;
     max-width: 100%;
     height: auto;
+}
+
+/* ABOUT ME ACTIONS */
+
+.about_me input:hover{
+    -webkit-box-shadow: 0px 2px 15px 9px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 2px 15px 9px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 2px 15px 9px rgba(34, 60, 80, 0.2);
+    font-size: 13.5px;
+}
+
+.about_me input:active{
+    font-size: 10px;
 }
 
 /* I CAN */
@@ -295,7 +311,7 @@ main{
     background-color: #00b6af;
     width: 200px;
     height: 44px;
-    border: none;
+    border: 1px #00b6af solid;
     border-radius: 7px;
     font-size: 17px;
     color: white;
@@ -322,6 +338,20 @@ main{
 
 .description_cases p{
     color: #3c4d65;
+}
+
+/* CASES ACTIONS */
+
+.cases input:hover{
+    -webkit-box-shadow: 0px 2px 20px 10px rgba(0, 182, 175, 0.2);
+    -moz-box-shadow: 0px 2px 20px 10px rgba(0, 182, 175, 0.2);
+    box-shadow: 0px 2px 20px 10px rgba(0, 182, 175, 0.2);
+    font-weight: bold;
+}
+
+.cases input:active{
+    background: white;
+    color: #359894;
 }
 
 
@@ -376,6 +406,7 @@ main{
     border: none;
     border-radius: 7px;
     font-size: 17px;
+    border: 1px #00b6af solid;
 }
 
 .calculator select{
@@ -388,6 +419,20 @@ main{
     border: none;
     appearance: none;
     
+}
+
+/* CALCULATOR ACTIONS */
+
+.calculator input:hover{
+    -webkit-box-shadow: 0px 2px 20px 10px rgba(0, 182, 175, 0.2);
+    -moz-box-shadow: 0px 2px 20px 10px rgba(0, 182, 175, 0.2);
+    box-shadow: 0px 2px 20px 10px rgba(0, 182, 175, 0.2);
+    font-weight: bold;
+}
+
+.calculator input:active{
+    background: white;
+    color: #359894;
 }
 
 /* STATISTICS */
@@ -556,6 +601,20 @@ main{
     font-weight: bold;
     margin-top: 28px;
 
+}
+
+/* FEEDBACK ACTIONS */
+
+._submit:hover{
+    font-size: 16px;
+    -webkit-box-shadow: 0px -1px 17px 12px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px -1px 17px 12px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px -1px 17px 12px rgba(255, 255, 255, 0.2);
+}
+
+._submit:active{
+    color: black;
+    background: white;
 }
 
 /* ADAPTIVE */
