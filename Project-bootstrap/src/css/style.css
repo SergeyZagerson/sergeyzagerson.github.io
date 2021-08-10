@@ -464,7 +464,7 @@ main{
 .stat_table{
     display: inline-block;
     width: 280px;
-    margin: 88px 20px 0px 20px;
+    margin: 88px 0px 0px 0px;
     height: 200px;
 }
 
@@ -485,6 +485,11 @@ main{
     font-weight: bold;
     font-size: 38px;
     color: #323e4f;
+}
+
+._svg_stat{
+    font-size: 170px;
+    color: #ec9d35;
 }
 
 
@@ -624,6 +629,66 @@ main{
 
 /* ADAPTIVE */
 
+@media (max-width: 1399px) {
+    .feedback{
+        height: 1100px;
+    }
+    .contacts_user{
+        width: 330px;
+        height: 35px;
+        margin: 47px 30px 14px 0px;
+        
+    }
+    
+    .message{
+        width: 690px;
+        height: 94px;
+        margin: 0px 30px 0px 0px;
+    
+    }
+    
+}
+@media (max-width: 1200px){
+    .calculator select{
+        width: 650px;
+        background: url('../img/arrow.png') 600px 50%/auto 20% no-repeat;
+        background-color: #eeeeee;
+    }
+    .calculator img{
+        overflow: hidden;
+        width: 655px;
+    }
+    .statistics{
+        height: 1000px;
+        background-size: 100% 1000px;
+    }
+    .statistics h3{
+        font-size: 20px;
+        white-space: pre;
+        margin: 10px 0px 16px 0px;
+        font-weight: 600;   
+    }
+    .statistics p{
+        font-weight: bold;
+        font-size: 42px;
+        color: #323e4f;
+        margin-top: 10px;
+    }
+    .contacts_user{
+        width: 270px;
+        height: 35px;
+        margin: 47px 30px 14px 0px;
+        
+    }
+    
+    .message{
+        width: 575px;
+        height: 94px;
+        margin: 0px 30px 0px 0px;
+    
+    }   
+}
+
 @media (max-width: 991px){
     .title_container, .title_container h4, .title_container h1, .title_container small, .title_container input{
         color: white;
@@ -648,12 +713,6 @@ main{
         height: 180px;
         margin: 0px 0px 20px 0px;
     }
-}
-
-@media (max-width: 1200px){
-}
-
-@media (max-width: 991px) {
     .i_can{
         height: 1500px;
     }
@@ -671,12 +730,57 @@ main{
         margin: 40px 0px 0px 0px;
         color: #3f495a;
     }
+    .description_cases{
+        margin-left: 60px;
+    }
+    .calculator select{
+        width: 480px;
+        background: url('../img/arrow.png') 420px 50%/auto 20% no-repeat;
+        background-color: #eeeeee;
+    }
+    .calculator img{
+        overflow: hidden;
+        width: 495px;
+    }
+    .contacts_user{
+        width: 190px;
+        height: 35px;
+        margin: 47px 30px 14px 0px;
+        
+    }
+    
+    .message{
+        width: 415px;
+        height: 94px;
+        margin: 0px 30px 0px 0px;
+    
+    }   
+    .contacts{
+        margin: 0px 20px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px){
     .about_me{
         height: 800px;
         width: 100%;
+    }
+    .cases{
+        height: 1100px;
+    }
+    .description_cases{
+        margin-left: 90px;
+        overflow: hidden;
+    }
+    .calculator select{
+        width: 360px;
+        background: url('../img/arrow.png') 320px 50%/auto 20% no-repeat;
+        background-color: #eeeeee;
+    }
+    .calculator img{
+        overflow: hidden;
+        width: 375px;
     }
     
 }
@@ -692,5 +796,10 @@ main{
     .about_me{
         height: 920px;
         width: 100%;
+    }
+    .review{
+        overflow: scroll;
+        width: 200px;
+        height: 100px;
     }
 }
