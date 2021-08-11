@@ -290,6 +290,12 @@ main{
     color: #323e4f;
 }
 
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
 /* CASES */
 
 .cases{
@@ -412,6 +418,7 @@ main{
     border-radius: 7px;
     font-size: 17px;
     border: 1px #00b6af solid;
+    flex-flow: row wrap
 }
 
 .calculator select{
@@ -546,6 +553,8 @@ main{
 
 .feedback p{
     color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 .feedback h2{
@@ -789,6 +798,50 @@ main{
     .about_me{
         height: 850px;
         width: 100%;
+    }
+    .calculator select{
+        width: 280px;
+        background: url('../img/arrow.png') 245px 50%/auto 20% no-repeat;
+        background-color: #eeeeee;
+    }
+    .calculator img{
+        overflow: hidden;
+        width: 295px;
+    }
+}
+
+@media (max-width: 414px) {
+    .description_cases{
+        margin-left: 120px;
+        overflow: scroll;
+        height: 200px;
+    }
+    .statistics h3{
+        font-size: 16px;
+        margin: 10px 0px 16px 0px;
+    }
+    .statistics p{
+        font-size: 38px;
+    }
+    
+    ._svg_stat{
+        font-size: 120px;
+    }
+    .message{
+        width: 300px;
+        height: 94px;
+        margin: 0px;
+    
+    }   
+    .contacts{
+        margin: 0px 25px;
+        text-align: center;
+    }
+    .contacts_user{
+        width: 150px;
+        height: 35px;
+        margin: 47px 0px 14px 0px;
+        
     }
 }
 
