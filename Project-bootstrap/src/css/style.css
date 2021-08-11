@@ -856,3 +856,15 @@ details > summary {
         height: 100px;
     }
 }
+
+@media (max-width: 375px) {
+    .calculator select{
+        width: 235px;
+        background: url('../img/arrow.png') 200px 50%/auto 20% no-repeat;
+        background-color: #eeeeee;
+    }
+    .calculator img{
+        overflow: hidden;
+        width: 265px;
+    }
+}
