@@ -73,4 +73,4 @@ typeAdaptive = Number(prompt("Адаптивность?" + "\n 1 - " + price.ada
 
 let result = calc(price.type[typeWeb][1], price.disign[typeDisign][1], price.adaptability[typeAdaptive][1]);
 
-confirm("Правильно?\n" + price.type[typeWeb][0] + "\n" + price.disign[typeDisign][0] + "\n" + price.adaptability[typeAdaptive][0] + "\nНа сумму - " + result + "р");
+confirm("Правильно?" + "\nТип - " + price.type[typeWeb][0] + "\nДизайн - " + price.disign[typeDisign][0] + "\nАдаптивность + " + price.adaptability[typeAdaptive][0] + "\nНа сумму - " + result + "р");
